@@ -6,7 +6,7 @@
 
 {% block breadcrumb_menu %}
 <ul>
-    <li><a href="{% url home %}">{% trans "Home" %}</a> &gt;&nbsp;</li>
+    <li><a href="{% url 'home' %}">{% trans "Home" %}</a> &gt;&nbsp;</li>
     <li>{% trans "Poll" %}: {{ page.title }}</li>
 </ul><br />
 {% endblock %}
